@@ -1,0 +1,16 @@
+{
+  "name": "data-struct",
+  "version": "0.0.1",
+  "author": "Bruno Windels <bruno.windels@gmail.com>",
+  "description": "Use c-like structs and arrays of structs with node buffers or typed arrays on the browsers",
+  "main": "./lib/struct.js",
+  "dependencies" : {
+      "bson"     :  "0.1.x"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "scripts": {
+    "test" : "nodeunit test/test-*.js"
+  }
+}
